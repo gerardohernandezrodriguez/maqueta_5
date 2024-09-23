@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-color: yellow;
+  border-right: 1px solid #ccc;
+}
+
+.slogan {
+  float: left;
+  width: 800px;
+  height: 150px;
+  background-color: pink;
+}
+
+nav {
+  float: both;
+  background-color: orange;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  aside {
+    background-color: red;
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    float: right;
+    padding: 20px;
+  }
+  article {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    float: both;
+    padding: 10px;
+  }  
