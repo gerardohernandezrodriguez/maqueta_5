@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Calculadora</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    form {
+        text-align: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+        margin: 10px 0;
+    }
+    input[type="text"] {
+        text-align: center;
+        color: blue; /* Cambia el color del texto */
+        border: 1px solid #ccc;
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+    button {
+        margin: 5px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+    <form name="form" action="" method="get">
+        <h2>Introduce el número 1</h2>
+        <input type="text" name="num1">
+        <h2>Introduce el número 2</h2>
+        <input type="text" name="num2">
+        <br><br>
+        <button type="button" onclick="suma()">Suma</button>
+        <button type="button" onclick="multi()">Multiplicación</button>
+        <button type="button" onclick="resta()">Resta</button>
+        <button type="button" onclick="division()">División</button>
+    </form>
+    
+    <script src="operaciones.js"></script>
+</body>
+</html>
